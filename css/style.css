@@ -173,3 +173,11 @@ footer .copyright-text{
     float:left;
     margin-top:10px;
 }
+
+footer .footer-top{padding:15px;}
+footer .content-box{
+    width:25%;
+    float:left;
+}
+
+footer .content-box ul{list-style: none;}
