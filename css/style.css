@@ -1,0 +1,175 @@
+*{margin:0;padding:0;}
+
+.clearfix::after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+.container{
+    width:1100px;
+    margin:auto;
+}
+
+header{
+    background:#eee;
+}
+
+
+a.brand{
+    display: block;
+    float:left;
+    margin:auto 0;
+}
+a.brand img{
+    display: block;
+
+}
+
+nav{
+    background:#666;
+    float:right;
+    margin-top:18px;
+}
+nav ul{
+}
+nav ul li{
+    display: inline-block;
+    float:left;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding:25px 20px;
+    background: #555;
+    border-right:1px solid #444;
+}
+
+nav ul li:last-child a{
+    border-right:none;
+}
+
+nav ul li a:hover{
+    background: #333;
+}
+
+
+.slider{
+    background: #b7bcbe;
+
+}
+.slider .container{
+    height:350px;
+    position:relative;
+}
+
+.slider .content-box{
+    position: absolute;
+    right:0;
+    bottom:30px;
+}
+
+.slider .content-box h3{
+    font-size:50px;
+    color:#fff;
+}
+
+.slider .content-box h4{
+    font-size:25px;
+    color:tomato;
+}
+
+section.team-leaders{
+    background:#eee;
+    padding:50px 0;
+}
+
+section.team-leaders h3{
+    text-align:center;
+    text-decoration:underline;
+    margin-bottom:35px;
+}
+section.team-leaders .container > p{
+    width:570px;
+    margin:0 auto 35px;
+}
+
+.members-container .member{
+    width:30%;
+    margin-right:5%;
+    float:left;
+}
+
+.members-container .member:nth-child(3){
+    margin-right:0;
+}
+
+.members-container .member img{
+    width:100%;
+}
+
+ul.social-nav{
+    float:right;
+}
+ul.social-nav li{
+    display: inline-block;
+}
+
+footer .footer-bottom{
+    background: #000;
+    padding:15px 0;
+    color:#fff;
+}
+
+ul.social-nav li{
+    float:left;
+    margin-right:10px;
+}
+
+ul.social-nav li:last-child{
+    margin-right:0;
+}
+ul.social-nav li a{
+    display: block;
+
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+
+    border:3px solid #666666;
+}
+
+ul.social-nav li a:hover{
+    border:3px solid #fff;
+}
+
+ul.social-nav li.facebook a{
+    background-image: url("../images/icons/facebook-logo.webp");
+}
+
+
+ul.social-nav li.youtube a{
+    background-image: url("../images/icons/youtube-logo.jpg");
+    background-color:#fff;
+}
+
+ul.social-nav li.twitter a{
+    background-image: url("../images/icons/twitter-logo.png");
+    background-size:85%;
+}
+
+
+ul.social-nav li.pinterest a{
+    background-image: url("../images/icons/pinterest-logo.png");
+}
+
+footer .copyright-text{
+    float:left;
+    margin-top:10px;
+}
