@@ -100,14 +100,32 @@ section.team-leaders .container > p{
     width:30%;
     margin-right:5%;
     float:left;
+    background:red;
 }
 
 .members-container .member:nth-child(3){
     margin-right:0;
 }
-
-.members-container .member img{
+.members-container .member .image-wrapper{
+    height:200px;
+    background:#666;
+    margin-bottom:15px;
+    position: relative;
+    overflow: hidden;
+}
+.members-container .member .image-wrapper img{
+    display:block;
+    position: absolute;
     width:100%;
+    top:50%;
+    transform: translateY(-50%);
+}
+.members-container .member h5{
+    font-size:23px;
+    margin-bottom:10px;
+}
+.members-container .member p{
+
 }
 
 ul.social-nav{
