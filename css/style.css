@@ -61,7 +61,7 @@ nav ul li a:hover{
 
 }
 .slider .container{
-    height:350px;
+    height: calc(100vh - 111px) ;
     position:relative;
 }
 
@@ -100,7 +100,8 @@ section.team-leaders .container > p{
     width:30%;
     margin-right:5%;
     float:left;
-    background:red;
+    background:#fff;
+    text-align:center;
 }
 
 .members-container .member:nth-child(3){
@@ -124,8 +125,15 @@ section.team-leaders .container > p{
     font-size:23px;
     margin-bottom:10px;
 }
-.members-container .member p{
 
+.members-container .member .info{
+  padding:10px;
+}
+.members-container .member .info p{
+    height:24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 ul.social-nav{
